@@ -1659,3 +1659,9 @@ body {padding-right: 0px !important;}
   width: 160px;
 }
 
+
+.mylist li{
+  text-align: left;
+  list-style-type: disc;
+}
+
