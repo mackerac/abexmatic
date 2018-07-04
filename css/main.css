@@ -489,7 +489,7 @@ input[type="date"] {
   top: 0;
   left: 0;
   z-index: 100;
-  border-top: 5px solid #ec1d25;
+  /* border-top: 5px solid #ec1d25; */
 }
 
 .wrap_header {
@@ -1664,4 +1664,22 @@ body {padding-right: 0px !important;}
   text-align: left;
   list-style-type: disc;
 }
+
+
+@media (max-width: 768px){ 
+  .section-slide .wrap-slick1 img {
+    width: 300px;
+}
+}
+
+@media (max-width: 576px){ 
+  .section-slide .wrap-slick1 img {
+    width: 300px;
+}
+}
+
+.header-fixed .btn-show-sidebar {
+  margin-left: 0px;
+}
+
 
