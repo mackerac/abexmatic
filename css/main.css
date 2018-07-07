@@ -1687,3 +1687,20 @@ body {padding-right: 0px !important;}
 }
 
 
+@media (max-width:576px) {
+   .wrap-text-delicious .tit3 {
+     font-size: 35px;
+     letter-spacing: 3px;
+
+}
+ }
+
+ @media (max-width:576px) {
+  .header-intro .tit4 {
+    font-size: 40px;
+    letter-spacing: 4px;
+
+}
+}
+
+
