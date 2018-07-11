@@ -1631,7 +1631,14 @@ body {padding-right: 0px !important;}
 /* MY CSS */
 
 .section-slide .wrap-slick1 img {
-          width: 600px;
+          width: 115px;
+          /* margin-left: -378%;
+          margin-bottom: 100%; */
+}
+
+.section-slide h3 {
+  color: #ccc !important;
+  /* margin-top: -10%; */
 }
 
 .section-intro h3 {
@@ -1702,5 +1709,7 @@ body {padding-right: 0px !important;}
 
 }
 }
+
+
 
 
