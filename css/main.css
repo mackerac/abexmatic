@@ -186,6 +186,52 @@ textarea:-moz-placeholder { color: #aaaaaa; }
 textarea::-moz-placeholder { color: #aaaaaa; }
 textarea:-ms-input-placeholder { color: #aaaaaa; }
 
+/*drop*/  
+
+.droping:hover .showdrop{
+    display: block !important;
+}
+
+#dropinner{
+    z-index: 100;
+}
+
+.drop1 li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+.translation {
+    transform: translateY(-140%);
+}
+
+#dropinner:hover .drop1{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 110px;
+    display: block !important;
+}
+
+.drop1{
+    background: white;
+    width: 100%;
+    display: none;
+}
+
+.droping ul{
+    background: white;
+    width: 100%;
+    display: none;
+}
+
+.droping ul li{
+    padding: 10px;
+    
+}
+
+
 /* ------------------------------------ */
 button {
 	outline: none !important;
