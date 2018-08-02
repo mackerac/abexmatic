@@ -1726,10 +1726,10 @@ body {padding-right: 0px !important;}
 
 /* MY CSS */
 
-.section-slide .wrap-slick1 img {
-          width: 115px;
-          /* margin-left: -378%;
-          margin-bottom: 100%; */
+.section-slide .wrap-slick1 h4 {
+      font-weight: 700;
+      font-size: 2em;
+
 }
 
 .section-slide h3 {
@@ -1834,6 +1834,34 @@ body {padding-right: 0px !important;}
   .wrap-menu-header-home {
     background: transparent;
   }
+}
+
+.latest-updates {
+  position: absolute;
+  right: 40px;
+  top:320px;
+  width: 40%;
+  height: 75%;
+  z-index: 20;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.latest-updates .players {
+  position: absolute;
+  width:100%;
+  height: 490px;    
+  overflow: hidden;
+}
+
+.latest-updates .players > li{
+  /* position: absolute; */
+  padding: 0px 0px 0px 0px;    
+  width:100%;
+}
+
+.latest-updates img {
+  width: 100%;
+  min-height: 250px;
 }
 
 
