@@ -193,8 +193,18 @@ textarea:-ms-input-placeholder { color: #aaaaaa; }
     display: block !important;
 }
 
-#dropinner{
+.dropinner{
     z-index: 10;
+}
+
+.drop1 {
+  position: absolute !important;
+  left: 100%;
+  top: -12px;
+}
+
+.dropinnerclass:hover .drop1{
+  display: block !important;
 }
 
 .drop1 li:hover{
@@ -207,7 +217,7 @@ textarea:-ms-input-placeholder { color: #aaaaaa; }
     transform: translateY(-140%);
 }
 
-#dropinner:hover .drop1{
+.dropinner:hover .drop1{
     position: absolute;
     width: 100%;
     top: 0%;
@@ -224,7 +234,7 @@ textarea:-ms-input-placeholder { color: #aaaaaa; }
 
 .droping ul{
     background: white;
-    margin-top: 15px;
+    margin-top: 12px;
     width: 100%;
     display: none;
     width: 300px;
