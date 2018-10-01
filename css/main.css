@@ -1875,6 +1875,20 @@ body {padding-right: 0px !important;}
 }
 
 
+#demo div img {
+  width: 100%;
+}
+
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
 
 
 
